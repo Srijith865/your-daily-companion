@@ -40,7 +40,7 @@ function Home() {
     <>
       <Header />
       <main className="pt-20">
-        <section className="relative w-full h-[90vh] overflow-hidden">
+        <section className="relative w-full h-[50vh] sm:h-[70vh] md:h-[90vh] overflow-hidden">
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{ backgroundImage: `url("${HERO}")` }}
@@ -48,7 +48,7 @@ function Home() {
           <div className="absolute inset-0 bg-black/10" />
         </section>
 
-        <section className="py-section-gap px-margin-mobile md:px-margin-desktop max-w-[1440px] mx-auto text-center">
+        <section className="py-16 md:py-section-gap px-margin-mobile md:px-margin-desktop max-w-[1440px] mx-auto text-center">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-label-caps font-mono uppercase mb-12 tracking-widest">THE VIBE</h2>
             <p className="text-headline-md font-headline mb-12 leading-snug">
@@ -74,7 +74,7 @@ function Home() {
           </div>
         </section>
 
-        <section className="pb-section-gap px-margin-mobile md:px-margin-desktop max-w-[1440px] mx-auto">
+        <section className="pb-16 md:pb-section-gap px-margin-mobile md:px-margin-desktop max-w-[1440px] mx-auto">
           <div className="mb-12">
             <h2 className="text-label-caps font-mono uppercase tracking-widest text-center">
               MENU HIGHLIGHTS
@@ -118,28 +118,28 @@ function Home() {
           </div>
         </section>
 
-        <section className="py-section-gap bg-surface">
+        <section className="py-16 md:py-section-gap bg-surface">
           <div className="px-margin-mobile md:px-margin-desktop max-w-[1440px] mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 h-[700px]">
-              <div className="h-full overflow-hidden">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 h-auto md:h-[700px]">
+              <div className="h-[300px] md:h-full overflow-hidden">
                 <img alt="Cafe Interior" src={G1} className="w-full h-full object-cover" />
               </div>
-              <div className="h-full flex flex-col gap-4">
-                <div className="h-1/2 overflow-hidden">
+              <div className="h-auto md:h-full flex flex-col gap-4">
+                <div className="h-[200px] md:h-1/2 overflow-hidden">
                   <img alt="Outdoor Seating" src={G2} className="w-full h-full object-cover" />
                 </div>
-                <div className="h-1/2 overflow-hidden">
+                <div className="h-[200px] md:h-1/2 overflow-hidden">
                   <img alt="Cozy Interior" src={G3} className="w-full h-full object-cover" />
                 </div>
               </div>
-              <div className="h-full overflow-hidden hidden md:block">
+              <div className="h-[300px] md:h-full overflow-hidden hidden md:block">
                 <img alt="Barista Counter" src={G4} className="w-full h-full object-cover" />
               </div>
             </div>
           </div>
         </section>
 
-        <section className="bg-soft-gray py-section-gap">
+        <section className="bg-soft-gray py-16 md:py-section-gap">
           <div className="px-margin-mobile md:px-margin-desktop max-w-[1440px] mx-auto flex flex-col items-center text-center">
             <div className="max-w-2xl bg-white p-12 border border-stark-black/10">
               <h2 className="text-headline-md font-headline mb-6 uppercase">RESERVE A TABLE</h2>

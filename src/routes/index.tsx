@@ -21,8 +21,7 @@ export const Route = createFileRoute("/")({
   component: Home,
 });
 
-const HERO =
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuArhWIOAs5ezjSxNCkmY0PU6d78QbNQP6ApUKQWxP3uzv_lZCgSqanili_KUmGNLAGo2adUAyP23F1SO_Cy4fiqNtgkiiqBd4rBqC3sRaUsxW0-lxPXWe8HsjkSI3xYzC_t_Zq1V84bOvYMZ5BfAiHRsSWBSbtfsc8KXuup-rUQ9pCNj3p1jQ8DV3YPv8JKDoMNIJ_YKI2H9h7eopSCvCNvp-oNuBKxP4Z1fV1lt60pD5CO-LSU45CPUK6HHU_G5AGfRiyK_Bb-tXCx";
+import HERO from "@/assets/hero.png";
 const BOWL =
   "https://lh3.googleusercontent.com/aida-public/AB6AXuAQkpm_2SWjAwizt1Yj04RO9txp-vNE9AQmwYcMlMKMf_HntTa7b46BL5MWYDinrQ0lZJuLcoIvLdA8BnWneQFXQVidiq3-T6qjtGJQohi3tujTaGJ9wW_sp9yEXCCYtHBfqguwpsYbsS-990El1ju72MTBmLEdripghPJWh6sbqTswQbWlWbKgvrZYtPFyxRuyqH-2oMtuA0-eoED--a09hp5ygR1cuRZ1Zs6JkmBwwOVOmg_zuuODI83LENPETHOiHKGvmWoScHCO";
 const TOAST =

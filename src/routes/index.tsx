@@ -51,7 +51,7 @@ function Home() {
         <section className="py-16 md:py-section-gap px-margin-mobile md:px-margin-desktop max-w-[1440px] mx-auto text-center">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-label-caps font-mono uppercase mb-12 tracking-widest">THE VIBE</h2>
-            <p className="text-headline-md font-headline mb-12 leading-snug">
+            <p className="text-xl md:text-headline-md font-headline mb-12 leading-snug">
               Lillie's - The Boho Cafe Jubilee Hills is a sanctuary where organic textures meet
               modern refinement. From our sun-drenched rattan corners to the aromatic presence of
               our micro-roastery, we offer a serene escape designed for connection and culinary
